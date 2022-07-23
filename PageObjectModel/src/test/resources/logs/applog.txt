@@ -1,0 +1,6 @@
+INFO    2022-07-08 13:58:31,646 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2022-07-08 13:58:31,646 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2022-07-08 13:58:34,002 [main] base.BaseTest  - Launching Chrome !!!
+INFO    2022-07-08 13:58:39,935 [main] base.BaseTest  - Navigated to : https://www.carwale.com/
+INFO    2022-07-08 13:58:44,157 [main] base.BaseTest  - DB Connection established !!!
+INFO    2022-07-08 13:58:48,472 [main] base.BaseTest  - Test Execution completed !!!

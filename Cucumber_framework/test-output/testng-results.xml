@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57075" started-at="2022-07-20T08:54:30Z" finished-at="2022-07-20T08:55:27Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.PositiveTest@5383967b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="57075" started-at="2022-07-20T08:54:30Z" finished-at="2022-07-20T08:55:27Z">
+      <class name="runners.PositiveTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.PositiveTest@5383967b]" name="setUpClass" is-config="true" duration-ms="1793" started-at="2022-07-20T08:54:30Z" finished-at="2022-07-20T08:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.PositiveTest@5383967b]" name="runScenario" duration-ms="53630" started-at="2022-07-20T08:54:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T08:55:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Search Cars Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Acceptance testing to validate Search Cars Page is working.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the step]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the step
+at org.testng.Assert.fail(Assert.java:96)
+at steps.SearchCarsSteps.i_move_to_Car_For_Sale_Menu(SearchCarsSteps.java:33)
+at ✽.I move to Car For Sale Menu(file:///C:/Users/Mauli11/Desktop/Rahul%20project/Rahul%20All%20project/Cucumber_framework/src/test/resources/FeatureFiles/SearchCars.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.PositiveTest@5383967b]" name="tearDownClass" is-config="true" duration-ms="1595" started-at="2022-07-20T08:55:26Z" finished-at="2022-07-20T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.PositiveTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

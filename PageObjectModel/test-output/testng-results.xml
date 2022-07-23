@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="176444" started-at="2022-07-08T20:55:52Z" finished-at="2022-07-08T20:58:48Z">
+    <groups>
+    </groups>
+    <test name="Find New Car Test" duration-ms="107299" started-at="2022-07-08T20:55:52Z" finished-at="2022-07-08T20:57:39Z">
+      <class name="testcases.FindNewCarTest">
+        <test-method status="PASS" signature="findNewCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindNewCarTest@14bdbc74]" name="findNewCar" duration-ms="55548" started-at="2022-07-08T20:55:52Z" data-provider="dp1" finished-at="2022-07-08T20:56:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyundai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyundai Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@14bdbc74]" name="tearDown" is-config="true" duration-ms="1361" started-at="2022-07-08T20:56:47Z" finished-at="2022-07-08T20:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="findNewCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindNewCarTest@14bdbc74]" name="findNewCar" duration-ms="28653" started-at="2022-07-08T20:56:49Z" data-provider="dp1" finished-at="2022-07-08T20:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BMW Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@14bdbc74]" name="tearDown" is-config="true" duration-ms="1157" started-at="2022-07-08T20:57:18Z" finished-at="2022-07-08T20:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="findNewCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindNewCarTest@14bdbc74]" name="findNewCar" duration-ms="19211" started-at="2022-07-08T20:57:19Z" data-provider="dp1" finished-at="2022-07-08T20:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Toyota Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@14bdbc74]" name="tearDown" is-config="true" duration-ms="934" started-at="2022-07-08T20:57:38Z" finished-at="2022-07-08T20:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.FindNewCarTest -->
+    </test> <!-- Find New Car Test -->
+    <test name="Car Name and Price Test" duration-ms="68015" started-at="2022-07-08T20:57:40Z" finished-at="2022-07-08T20:58:48Z">
+      <class name="testcases.CarNameAndPriceTest">
+        <test-method status="PASS" signature="carNameAndPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarNameAndPriceTest@147e2ae7]" name="carNameAndPrice" duration-ms="27172" started-at="2022-07-08T20:57:40Z" data-provider="dp1" finished-at="2022-07-08T20:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyundai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyundai Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarNameAndPriceTest@147e2ae7]" name="tearDown" is-config="true" duration-ms="1349" started-at="2022-07-08T20:58:07Z" finished-at="2022-07-08T20:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="carNameAndPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarNameAndPriceTest@147e2ae7]" name="carNameAndPrice" duration-ms="21468" started-at="2022-07-08T20:58:09Z" data-provider="dp1" finished-at="2022-07-08T20:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BMW Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarNameAndPriceTest@147e2ae7]" name="tearDown" is-config="true" duration-ms="1105" started-at="2022-07-08T20:58:30Z" finished-at="2022-07-08T20:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="carNameAndPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarNameAndPriceTest@147e2ae7]" name="carNameAndPrice" duration-ms="15991" started-at="2022-07-08T20:58:31Z" data-provider="dp1" finished-at="2022-07-08T20:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Toyota Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarNameAndPriceTest@147e2ae7]" name="tearDown" is-config="true" duration-ms="838" started-at="2022-07-08T20:58:47Z" finished-at="2022-07-08T20:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CarNameAndPriceTest -->
+    </test> <!-- Car Name and Price Test -->
+  </suite> <!-- Suite -->
+</testng-results>
